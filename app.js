@@ -25,6 +25,8 @@ input.onchange = function () {
       colHeaders: data.meta.fields,
       columnSorting: true,
       tableClassName: 'colomns',
+      noWordWrapClassName: 'colomns',
+      currentColClassName: 'colomns',
       width: '100%',
       licenseKey: 'non-commercial-and-evaluation',
     })
