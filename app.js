@@ -14,7 +14,8 @@ input.onchange = function () {
 
     // reset container
     handsontableContainer.innerHTML = ''
-    handsontableContainer.className = 'collomn'
+    handsontableContainer.className = ''
+    tableClassName: 'colomns',
     document.querySelector('input').remove()
     document.querySelector('.github-corner').remove()
     document.querySelector('.place-your-ad-here').remove()
