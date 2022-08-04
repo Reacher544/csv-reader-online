@@ -15,7 +15,6 @@ input.onchange = function () {
     // reset container
     handsontableContainer.innerHTML = ''
     handsontableContainer.className = ''
-    tableClassName: 'colomns',
     document.querySelector('input').remove()
     document.querySelector('.github-corner').remove()
     document.querySelector('.place-your-ad-here').remove()
@@ -25,6 +24,7 @@ input.onchange = function () {
       rowHeaders: true,
       colHeaders: data.meta.fields,
       columnSorting: true,
+      tableClassName: 'colomns',
       width: '100%',
       licenseKey: 'non-commercial-and-evaluation',
     })
